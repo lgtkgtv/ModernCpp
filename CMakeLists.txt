@@ -5,9 +5,14 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
 
 set(SOURCE_FILES main.cpp AutoDecltype.cpp)
 
-add_executable(ModernCpp ${SOURCE_FILES} Headers.h NullPtr.cpp AutoDecltype.cpp
-    RangeBasedFor.cpp Lambdas.cpp StronglyTypedEnum.cpp
-    StaticAssertTraits.cpp Constexpr.cpp )
+add_executable(ModernCpp ${SOURCE_FILES} Headers.h 
+    NullPtr.cpp 
+    AutoDecltype.cpp
+    RangeBasedFor.cpp 
+    Lambdas.cpp 
+    StronglyTypedEnum.cpp
+    StaticAssertTraits.cpp 
+    Constexpr.cpp )
 
 add_executable(SmartPointerTest SmartPointers.cpp)
 
